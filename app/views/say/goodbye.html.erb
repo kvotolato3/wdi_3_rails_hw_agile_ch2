@@ -1,5 +1,13 @@
 <h1>Goodbye!</h1>
 <p>
+Files in current directory
+<ul>
+<% for file in @files %>
+  <li>file name is: <%= file %></li>
+<% end %>
+</ul>
+</p>
+<p>
 It was nice having you here.
 </p>
 

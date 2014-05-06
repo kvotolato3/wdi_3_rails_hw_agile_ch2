@@ -3,6 +3,16 @@
   It is now <%= @time %>
 </p>
 <p>
+  In 1 hour it will be <%= 1.hour.from_now.localtime %>
+</p>
+<p>
+  What happens when you put "cow" and "boy" together?<br>
+  You get a <%= "cow" + "boy" %>!
+</p>
+<p>
+Let's add 1 + 2...we get: <%= 1 + 2 %>
+</p>
+<p>
   Time to say
 <%=link_to "Goodbye", say_goodbye_path %>!
 </p>
